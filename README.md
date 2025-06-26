@@ -42,7 +42,7 @@ This Power BI dashboard serves as a central analytical tool for monitoring and u
 - **DAX (Data Analysis Expressions):** For complex calculations and custom measures.
 - **Power Query:** For ETL (Extract, Transform, Load) operations to prepare and clean data.
 
-## Dashboard Screenshot
+## Power-BI-Dashboard Screenshot
 
 ![Food Sales Analysis Dashboard](https://github.com/user-attachments/assets/638c1fc9-9261-4529-acca-ca770cac7cfa)
-# Power-BI-Dashboard
+
