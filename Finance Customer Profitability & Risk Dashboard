@@ -1,30 +1,39 @@
-Developed a high-performance Power BI reporting suite for a finance team to transition from manual Excel-based tracking to an automated, interactive dashboard. The solution provides a unified semantic layer for analyzing customer-level profitability, net interest margins, and credit risk across various banking products.
 
-🛠️ Technical Highlights
-Data Modeling: Engineered a robust star schema to handle millions in financing receivables and deposits across multiple dimensions (Customer, Account, RM, and Product).
+🏛️ Business Understanding & Project Overview
+The financial sector is transitioning from static, manual reporting to dynamic, data-driven architectures. This project involved developing a high-performance Power BI suite designed for a finance team to serve a global sales audience. The primary objective was to replace a cumbersome, manual Excel reporting process with a centralized, automated interface.
 
-Advanced DAX:
+By establishing a robust semantic layer, the dashboard provides a "single source of truth" for analyzing customer profitability, net interest margins, and credit risk. This enables executives to monitor the health of the portfolio across segments like Business, Syndications, and Real Estate in real-time.
 
-Time Intelligence: Implemented YOY, MTD, and YTD logic with dynamic axis scaling to compare current performance (Jan '26) against prior years.
+🛠️ Technical Implementation
+The solution was built using advanced data engineering and visualization techniques to ensure scalability and depth:
 
-Financial Logic: Calculated complex metrics including FTP (Funds Transfer Pricing), Net Interest Margin (NIM) per segment, and Expected Credit Loss (ECL) trends.
+Automated Data Architecture: Leveraged SQL Server as the primary source to feed a star-schema model, replacing manual data entry.
 
-Advanced Visualizations:
+Advanced DAX Logic: Developed complex measures for YOY (Year-Over-Year) comparisons, MTD (Month-to-Date), and YTD (Year-to-Date) tracking.
 
-Waterfall Charts: Deployed to visualize the bridge from Profit Income to Net Operating Income.
+Income Breakdown Modeling: Implemented Funds Transfer Pricing (FTP) logic to calculate Asset Charges and Credits, providing a realistic view of Net Operating Income.
 
-Matrix Logic: Utilized advanced matrix configurations with conditional formatting for Yield and Margin analysis.
+Risk Integration: Designed a Credit Risk Rating gauge and an Expected Credit Loss (ECL) trend monitor to bridge the gap between profitability and risk.
 
-Risk Gauges: Custom-scaled gauges for Credit Risk Rating and FCL stages.
+🔍 Key Insights & Findings
+Based on the January 2026 reporting cycle, the dashboard revealed several critical performance trends:
 
-📈 Business Insights Delivered
-Operational Efficiency: Automated the end-to-end reporting workflow, eliminating manual data consolidation for sales and finance teams.
+1. Exceptional Profitability Growth
+Net Operating Income: Reached $13,233.6K, representing a robust 18.6% YOY increase.
 
-Profitability Tracking: Enabled real-time monitoring of a $13.2M Net Operating Income and $8.2M Net Profit, highlighting a 30.3% YOY growth.
+Net Profit: Surged to $8,225.1K, a significant 30.3% growth compared to the previous period.
 
-Segment Performance: Identified high-performing segments, such as the 48.1% YOY growth in Fee Income.
+2. Revenue Drivers & Efficiency
+Fee Income: Witnessed a massive 48.1% YOY spike, indicating successful cross-selling and service diversification.
 
+Portfolio Strength: Total Financing Receivables stand at $6,655.2M, with the Business segment contributing the lion's share at $3,353.9M.
 
-SQL_Scripts/: Contains the CTE-based SQL queries and aggregate functions used for data extraction and transformation.
+3. Margin & Risk Management
+Yield vs. Margin: While Business syndications show a healthy 6.2% yield, the Cash Line Facility maintains a higher individual margin of 2.1%.
 
-Documentation/: Deep-dive into the DAX measures and the automation logic.
+Risk Monitoring: The ECL Charge hit $754.6K in Jan '26; however, the provision cover remains aligned with the increasing credit risk rating.
+
+🎯 Conclusion
+This dashboard represents a successful transition from Associate-level reporting to Executive-level analytics. By automating the interface, the project reduced manual effort for the finance team while providing the sales team with granular, actionable insights into customer profitability. The integration of Microsoft Fabric-ready principles ensures the dashboard is prepared for future enterprise-scale cloud integration.
+
+Final Outcome: An 18.6% increase in Net Operating Income and a 48% growth in Fee Income are now tracked with 100% automation, allowing leadership to focus on strategy rather than data preparation.
