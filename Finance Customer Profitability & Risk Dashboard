@@ -1,0 +1,30 @@
+Developed a high-performance Power BI reporting suite for a finance team to transition from manual Excel-based tracking to an automated, interactive dashboard. The solution provides a unified semantic layer for analyzing customer-level profitability, net interest margins, and credit risk across various banking products.
+
+🛠️ Technical Highlights
+Data Modeling: Engineered a robust star schema to handle millions in financing receivables and deposits across multiple dimensions (Customer, Account, RM, and Product).
+
+Advanced DAX:
+
+Time Intelligence: Implemented YOY, MTD, and YTD logic with dynamic axis scaling to compare current performance (Jan '26) against prior years.
+
+Financial Logic: Calculated complex metrics including FTP (Funds Transfer Pricing), Net Interest Margin (NIM) per segment, and Expected Credit Loss (ECL) trends.
+
+Advanced Visualizations:
+
+Waterfall Charts: Deployed to visualize the bridge from Profit Income to Net Operating Income.
+
+Matrix Logic: Utilized advanced matrix configurations with conditional formatting for Yield and Margin analysis.
+
+Risk Gauges: Custom-scaled gauges for Credit Risk Rating and FCL stages.
+
+📈 Business Insights Delivered
+Operational Efficiency: Automated the end-to-end reporting workflow, eliminating manual data consolidation for sales and finance teams.
+
+Profitability Tracking: Enabled real-time monitoring of a $13.2M Net Operating Income and $8.2M Net Profit, highlighting a 30.3% YOY growth.
+
+Segment Performance: Identified high-performing segments, such as the 48.1% YOY growth in Fee Income.
+
+
+SQL_Scripts/: Contains the CTE-based SQL queries and aggregate functions used for data extraction and transformation.
+
+Documentation/: Deep-dive into the DAX measures and the automation logic.
